@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <title>ICOMMgroup MOBILE</title>
+</head>
+<body>
+   <section class="flex-section-main">
+      <div class="flex-section"> 
+           <h2>Editorias Shop2gether</h2> 
+           <div class="flex-div owl-carousel">      
+               <div class="flex-divs imagem item">
+                    <div class="cards">
+                        <div class="sub-div-card">
+                            <div class="mixed">Mixed</div>
+                            <h3 class="vestidos">Vestidos</h3>
+                        </div>
+                        <div class="preco-conteiner">
+                            <div>a partir de </div>
+                            <div class="valor">R$599</div> 
+                       </div>
+                      <!--   <div>a partir de $599</div>    -->
+                    </div> 
+               </div> 
+               <div class="flex-divs imagem-2 item">
+                   <div class="cards">
+                       <div class="sub-div-card">
+                           <span class="mixed">Dia dos namorados</span>   
+                           <h3 class="vestidos">Presente</h3>   
+                       </div> 
+                       <div class="preco-conteiner">
+                            <div>a partir de </div>
+                            <div class="valor">R$69</div> 
+                        </div>    
+                    </div>
+                      <!--  <p>a partir de R$69</p>    -->                       
+               </div> 
+               <div class="flex-divs imagem-3 item">
+                   <div class="cards">
+                        <div class="sub-div-card">
+                            <div class="mixed">Blusas</div>
+                            <h3 class="vestidos">Inverno 2021</h3>     
+                        </div>
+                        <div class="preco-conteiner">
+                            <div>a partir de </div>
+                            <div class="valor">R$149</div> 
+                       </div>
+                      <!--   <div class="apartir">a partir de R$149</div>  -->
+                    </div>                   
+               </div>
+            </div>
+            <h2>Editorias Shop2gether</h2>   
+            <div class="flex-div owl-carousel">
+               <div class="flex-divs imagem-4 item">
+                   <div class="cards">
+                        <div class="sub-div-card">
+                            <div>Animale</div> 
+                            <h3>Animal Print</h3>
+                        </div> 
+                        <div class="preco-conteiner">
+                            <div>a partir de </div>
+                            <div class="valor">R$269</div> 
+                       </div>
+                        <!-- <div class="apartir">a partir de R$269</div>  -->
+                   </div>
+               </div> 
+               <div class="flex-divs imagem-5 item"> 
+                   <div class="cards">
+                       <div class="sub-div-card">
+                            <div>ALEXANDRE BRIMAN</div>
+                            <h3>Sandálias</h3>  
+                       </div>
+                       <div class="preco-conteiner">
+                            <div>a partir de </div>
+                            <div class="valor">R$349</div> 
+                       </div>
+                   </div>
+               </div>
+               <div class="flex-divs imagem-6 item">
+                   <div class="cards">
+                       <div class="sub-div-card">
+                           <div>Tendência</div>     
+                           <h3>All Jeans</h3>    
+                       </div>
+                       <div class="preco-conteiner">
+                            <div>a partir de </div>
+                            <div class="valor">R$279</div> 
+                        </div>
+                       <!-- <div class="apartir"> a partir de R$279</div>  -->
+                    </div>
+               </div> 
+          </div>
+      </div> 
+   </section>
+   <script src="lib/jquery/jquery.min.js"></script>
+   <script src="lib/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+   <script type="text/javascript">
+
+        $(document).ready(function() {
+            $(".owl-carousel").owlCarousel({
+                items: 2,
+                loop: true,
+                margin: 16,
+                center: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                /* responsive: {
+                    576: {
+                        items: 1,
+                        center: true
+                    },
+
+                    768: {
+                        items: 2,
+                        center: true,
+                        margin: 16
+                    }
+                } */
+            });
+        });
+
+   </script>
+</body>
+</html>
