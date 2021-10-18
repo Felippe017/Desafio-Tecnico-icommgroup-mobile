@@ -103,24 +103,26 @@
 
         $(document).ready(function() {
             $(".owl-carousel").owlCarousel({
-                items: 2,
+               /*  items: 2, */
                 loop: true,
                 margin: 16,
                 center: true,
-                autoplay: true,
-                autoplayTimeout: 3000,
-                /* responsive: {
-                    576: {
+                responsiveClass: true,
+              /*   autoplay: true,
+                autoplayTimeout: 4000, */
+                responsive: {
+                    425: {
                         items: 1,
-                        center: true
+                        center: true,
+                        margin: 5
                     },
 
-                    768: {
+                    575: {
                         items: 2,
                         center: true,
-                        margin: 16
+                        margin: 5
                     }
-                } */
+                }
             });
         });
 
