@@ -186,7 +186,7 @@
     }  
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width: 320px) {
     .flex-section-main {
         height: 50rem;
          width: 18rem;
@@ -201,6 +201,4 @@
         width: 16.37rem;
         height: 15.75rem;
     }
-
-    
 }

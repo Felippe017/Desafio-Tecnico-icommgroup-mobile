@@ -24,7 +24,6 @@
                             <div>a partir de </div>
                             <div class="valor">R$599</div> 
                        </div>
-                      <!--   <div>a partir de $599</div>    -->
                     </div> 
                </div> 
                <div class="flex-divs imagem-2 item">
@@ -37,8 +36,7 @@
                             <div>a partir de </div>
                             <div class="valor">R$69</div> 
                         </div>    
-                    </div>
-                      <!--  <p>a partir de R$69</p>    -->                       
+                    </div>            
                </div> 
                <div class="flex-divs imagem-3 item">
                    <div class="cards">
@@ -50,7 +48,6 @@
                             <div>a partir de </div>
                             <div class="valor">R$149</div> 
                        </div>
-                      <!--   <div class="apartir">a partir de R$149</div>  -->
                     </div>                   
                </div>
             </div>
@@ -66,7 +63,6 @@
                             <div>a partir de </div>
                             <div class="valor">R$269</div> 
                        </div>
-                        <!-- <div class="apartir">a partir de R$269</div>  -->
                    </div>
                </div> 
                <div class="flex-divs imagem-5 item"> 
@@ -91,7 +87,6 @@
                             <div>a partir de </div>
                             <div class="valor">R$279</div> 
                         </div>
-                       <!-- <div class="apartir"> a partir de R$279</div>  -->
                     </div>
                </div> 
           </div>
@@ -107,9 +102,14 @@
                 margin: 2,
                 center: true,
                 responsiveClass: true,
-               /*  autoplay: true,
-                autoplayTimeout: 3000, */
+                autoplay: true,
+                autoplayTimeout: 3000,
                 responsive: {
+                    320: {
+                        items: 1,
+                        center: true
+                    },
+
                     375: {
                         items: 1,
                         center: true,
