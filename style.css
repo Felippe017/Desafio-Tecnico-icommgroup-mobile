@@ -149,7 +149,7 @@
     }  
  
     .flex-section {
-        width: 32rem;
+        width: 22rem;
         height: 46rem;
     }
 
@@ -157,27 +157,31 @@
         padding-left: 12%;
         font-size: 18px;
         text-align: center;
+    }
+
+    .flex-section-main {
+        height: 50rem;
+        width: 27rem;
+    }
+
+    .flex-divs{
+        width: 21.37rem;
     }
 }
 
-/* @media screen and (max-width: 424px) and (min-width: 375px) {
-    * {
-        overflow: auto;
-    }  
-
-    .flex-div {
-        align-content: initial; 
-        height: 21.5rem;
-    }  
- 
+@media screen and (max-width: 375px) and (min-width: 320px) {
+    .flex-section-main {
+       height: 49rem; 
+       width: 25rem;
+    }
+    
     .flex-section {
-        width: 32rem;
-        height: 46rem;
+        height: 45rem;
+        width: 24rem;
     }
 
-    h2 {
-        padding-left: 12%;
-        font-size: 18px;
-        text-align: center;
-    }
-} */
+    .flex-divs {
+        width: 22.37rem;
+        height: 15.75rem;
+    }  
+}
