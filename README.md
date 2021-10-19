@@ -2,7 +2,7 @@
 
 ---
 
-# Contenxto
+# Contexto
 
 Trata-se de uma réplica de uma interface para Mobile com design responsivo e carrosel horizontal.
 
