@@ -34,14 +34,14 @@
    align-self: center;
    background-color: #ededed;
    width: 90%;  
-   height: 40.5em;
+   height: 40.5rem;
 } 
 
 .flex-divs {
     display: flex;
     box-sizing: border-box;
-    height:  18.75em;
-    width:  22.37em;
+    height:  18.75rem;
+    width:  22.37rem;
     margin: 10px;
     padding: 17px;
     border-radius: 5px;
@@ -111,21 +111,7 @@
     align-content: flex-end;
 }
 
-/* @media screen and (max-width: 1200px) and (min-width: 768px) {
-   * {
-      overflow: auto;
-   }  
-
-   .flex-div {
-      align-content: initial; 
-   }
-
-   .flex-section {
-       width: 53rem;
-   }
-} */
- 
-@media screen and (max-width: 768px) and (min-width: 576px) {
+@media screen and (max-width: 768px) {
     * {
         overflow: auto;
     }  
@@ -146,7 +132,7 @@
     }
 
     .flex-divs {
-        width: 29.37em;
+        width: 29.37rem;
         margin: initial;
     }
    
@@ -174,39 +160,24 @@
     }
 }
 
-/* @media screen and (max-width: 1200px) and (min-width: 768px) {
+/* @media screen and (max-width: 424px) and (min-width: 375px) {
     * {
-       overflow: auto;
+        overflow: auto;
+    }  
+
+    .flex-div {
+        align-content: initial; 
+        height: 21.5rem;
     }  
  
-    .flex-div {
-       align-content: initial; 
-    }
- 
     .flex-section {
-        width: 53rem;
+        width: 32rem;
+        height: 46rem;
     }
- } */
-  
-/*  @media screen and (max-width: 768px) and (min-width: 576px) {
-     * {
-         overflow: auto;
-     }  
-   
-      .flex-div {
-         align-content: initial; 
-         height: initial;
-     }  
-     
-     h2 {
-         padding-left: 13%;
-         font-size: 18px;
-         text-align: center;
-     }
- 
-     .flex-divs {
-         width: 27.37em;
-         margin: initial;
-     }
-    
- } */
+
+    h2 {
+        padding-left: 12%;
+        font-size: 18px;
+        text-align: center;
+    }
+} */
