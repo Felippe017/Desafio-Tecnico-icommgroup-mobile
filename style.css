@@ -169,7 +169,7 @@
     }
 }
 
-@media screen and (max-width: 375px) and (min-width: 320px) {
+@media screen and (max-width: 375px) {
     .flex-section-main {
        height: 49rem; 
        width: 25rem;
@@ -184,4 +184,23 @@
         width: 22.37rem;
         height: 15.75rem;
     }  
+}
+
+@media screen and (max-width:320px) {
+    .flex-section-main {
+        height: 50rem;
+         width: 18rem;
+    }
+    
+    .flex-section {
+        height: 41rem;
+        width: 16rem;
+    }
+
+    .flex-divs {
+        width: 16.37rem;
+        height: 15.75rem;
+    }
+
+    
 }
